@@ -1,2 +1,2 @@
-# resume
-for personal purpose.
+# portfolio
+Personal use for work history something related to it.

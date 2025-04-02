@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiya Tumurbaatar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">  
+</head>
+
+<body>
+    <header>
+        <h1>Adiya Tumurbaatar</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to my portfolio!</h2>
+            <p>I'm a Software Engineer passionate about automation, AI, and building efficient solutions.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="assets/profile.jpg" alt="Adiya Tumurbaatar">
+            <p>
+                I am a highly skilled and experienced Software Engineer with a proven track record in automation, AI development, and building robust software solutions. My expertise spans various technologies and industries, including finance and engineering. I am passionate about leveraging technology to solve complex problems and improve efficiency.
+            </p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Senior Automation Engineer | Forum 8</h3>
+                <p class="date">Oct 2024 - Present | Japan</p>
+                <p>
+                    Developing software for an Engineering Studio tool that assists Civil Engineers in construction design. The tool incorporates complex mathematical analysis to predict structural behavior during disasters such as earthquakes and typhoons.
+                    <br>
+                    <b>Technologies:</b> Delphi, Math, FEM Analysis, OpenGL, Graphics
+                </p>
+            </div>
+            <div class="experience-item">
+                <h3>Senior Automation Engineer | Khan Bank</h3>
+                <p class="date">Sep 2023 - Sep 2024 | Mongolia</p>
+                <p>
+                    Led automation projects and developed RPA processes using UiPath to reduce human hours and improve performance. Worked on business process automation projects to enhance banking services. Developed a personal helper chatbot system for banking customers. Initiated and implemented the CI/CD pipeline for banking low coding application development. Researched and implemented UiPath's AI-powered automations.
+                    <br>
+                    <b>Technologies:</b> UiPath, RPA, Automation, SRM, Monitoring, Backup, Kubernetes, Docker, Elastic, BPA, Java Spring Boot, Linux, Cloud, AI, ML, LLM, NLP, Astra DB, Data Science, DevOps, Jenkins
+                </p>
+            </div>
+            <div class="experience-item">
+                <h3>Software Engineer | Hitachi Astemo</h3>
+                <p class="date">Dec 2020 - Sep 2023 | Japan</p>
+                <p>
+                    Worked on embedded software development projects for electronic control units and networking systems. Initiated and implemented software automation projects using Python. Maintained software compilation steps and enhanced the linker process.
+                    <br>
+                    <b>Technologies:</b> C/C++, Autosar (BSW/MCAL), Automation, Python3, Matlab, Digital signal processing, Compilation, Linker, Execution, Object-oriented design
+                </p>
+            </div>
+            <div class="experience-item">
+                <h3>Software Engineer | Golomt Bank</h3>
+                <p class="date">Jan 2018 - Feb 2020 | Mongolia</p>
+                <p>
+                    Developed automation services to replace human operation. Developed middleware API service that connects the bank with Citizen Data Exchanger. Created a new cloud based domain name server. Developed cloud based banking applications using AWS.
+                    <br>
+                    <b>Technologies:</b> Python Flask, Microsoft AD manager, Shell-Script, Restful-API, Bind DNS, Cloud, Linux, AWS, CI/CD, SAFE
+                </p>
+            </div>
+            <div class="experience-item">
+                <h3>Software Engineer | National Data Center</h3>
+                <p class="date">July 2015 - Jan 2018 | Mongolia</p>
+                <p>
+                    Initiated and implemented a fast logging solution for slow Java applications. Developed Restful API services for exchanging national citizen data. Developed a new monitoring application with a team using Python.
+                    <br>
+                    <b>Technologies:</b> Redis, Memcached, Nosql, Java, Javascript, Weblogic, Soap, Oauth2, API, Python, Shell script, Linux, Unix
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-item" onclick="showDemo('demos/project1/index.html')">
+                <h3>Project 1</h3>
+                <p>A brief description of Project 1.</p>
+            </div>
+        </div>
+        <div id="demo-container"></div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievement-list">
+            <div class="achievement-item">
+                <h3>AI Hackathon</h3>
+                <p>Participated in an AI Hackathon and developed a chatbot for banking customers to increase the number of customers. | Bronze medal - 2024</p>
+            </div>
+            <div class="achievement-item">
+                <h3>ACM-ICPC Asia Regional Final Round, Hangzhou</h3>
+                <p>Bronze medal - 2012, Programming</p>
+            </div>
+            <div class="achievement-item">
+                <h3>ACM-ICPC Asia Regional Final Round, Nanjing</h3>
+                <p>Bronze medal - 2013, Programming</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Adiya Tumurbaatar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
